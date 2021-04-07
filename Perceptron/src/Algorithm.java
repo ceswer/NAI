@@ -52,7 +52,7 @@ public class Algorithm {
                 for (int j = 0; j < Service.length; j++)
                     weights[j] += alpha * observation.getValues()[j] * error;
 
-                theta -= error * alpha;
+                theta += error * alpha;
             }
             if (summaryError == 0) break;
         }
