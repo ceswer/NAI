@@ -1,5 +1,5 @@
 # Artificial-Intelligence
-Solving tasks given from PJWSTK and own projects based on artificial intelligence.
+Solving tasks given by PJWSTK and own projects based on artificial intelligence.
 
 ## Mini-projekt: k-NN
 Celem jest napisanie programu, który pobiera następujące argumenty: K dodatnia liczba naturalna będąca hiper parametrem k-NN. Train-set: nazwa pliku zawierającego zbiór treningowy w postaci csv. Test-set: nazwa pliku zawierającego zbiór testowy w postaci csv. Program ma dokonać klasyfikacji k-NN wszystkich obserwacji  z  pliku test-set na podstawie pliku train-set oraz podać dokładność (accuracy) tej klasyfikacji (proporcję poprawnie zaklasyfikowanych przykładów testowych). Program ma też dostarczać testowy interfejs (niekoniecznie graficzny), który umożliwia zapętlone podawanie przez użytkownika pojedynczych wektorów do klasyfikacji i podaje ich etykietę k-NN na podstawie train-set. Opcjonalne rozszerzenie (dodatkowy punkt za aktywność): dowolną techniką (excel, python, etc.) Zrobić wykres zależności dokładności (accuracy) od wartości K. Przetestować na danych ze zbiorów treningowego i testowego znajdujących się w plikach test.csv oraz training.csv (ale program powinien umożliwiać wykorzystanie dowolnego zbioru).
