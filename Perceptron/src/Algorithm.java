@@ -15,13 +15,11 @@ public class Algorithm {
     }
 
     private void randomizeWeightsAndTheta() {
-        int min = -1, max = 1, range = max - min;
-
-        theta = Math.random()*(range)+min;
+ 	theta = (Math.random()*2)-1;
 
         weights = new double[Service.length];
         for (int i = 0; i < weights.length; i++)
-            weights[i] = Math.random()*(range)+min;
+            weights[i] = (Math.random()*2)-1;
     }
 
     // Note: określenie typu odnośnie wag
